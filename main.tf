@@ -357,10 +357,10 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "rahamtestbycketterra7788abcdef"
+  bucket = "varunaws999"
 
   tags = {
-    Name        = "rahamtestbycketterra7788abcdefghijkl"
+    Name        = "varunaws999"
     Environment = "Dev"
   }
 }
@@ -377,5 +377,5 @@ default = ["user1", "user2", "user3", "user4"]
 }
 
 resource "aws_iam_group" "two" {
-name = "devopswithawsbyrahamshaik"
+name = "varunaws"
 }
